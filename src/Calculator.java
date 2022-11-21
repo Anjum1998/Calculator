@@ -15,6 +15,10 @@ public class Calculator {
         int option=sc.nextInt();
         switch (option)
         {
+            case 1:
+                int result=a+b;
+                System.out.println("a + b = "+result);
+                break;
 
         }
     }
