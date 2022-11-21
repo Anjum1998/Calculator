@@ -11,7 +11,7 @@ public class Calculator {
 
         System.out.println("Enter the Choice:");
 
-        System.out.println("1.Addition 2.Subtraction 3.Multiplication 4.Division");
+        System.out.println("1.Addition 2.Subtraction 3.Multiplication 4.Division 5.Exit");
         int option=sc.nextInt();
         switch (option)
         {
@@ -23,6 +23,9 @@ public class Calculator {
                 int sub=a-b;
                 System.out.println("a - b = "+sub);
                 break;
+            case 3:
+                int mul=a*b;
+                System.out.println("a * b ="+mul);
 
         }
     }
