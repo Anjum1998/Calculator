@@ -19,6 +19,10 @@ public class Calculator {
                 int result=a+b;
                 System.out.println("a + b = "+result);
                 break;
+            case 2:
+                int sub=a-b;
+                System.out.println("a - b = "+sub);
+                break;
 
         }
     }
