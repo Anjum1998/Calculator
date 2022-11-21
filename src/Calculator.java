@@ -34,8 +34,20 @@ public class Calculator {
                 int mul=a*b;
                 System.out.println("a * b ="+mul);
             case 4:
-                int div=a/b;
-                System.out.println("a / b ="+div);
+                try{
+                    int div=a/b;
+                    System.out.println("a / b ="+div);
+                }
+                catch (ArithmeticException e)
+                {
+                    System.out.println(" Exception b is Zero");
+                }
+                finally {
+                    System.out.println("pgm reached the line");
+
+                }
+                break;
+
             case 5:
                 break;
             default:
