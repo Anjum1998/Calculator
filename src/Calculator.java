@@ -44,7 +44,9 @@ public class Calculator {
                 }
                 finally {
                     System.out.println("pgm reached the line");
+
                 }
+                break;
 
             case 5:
                 break;
