@@ -26,6 +26,9 @@ public class Calculator {
             case 3:
                 int mul=a*b;
                 System.out.println("a * b ="+mul);
+            case 4:
+                int div=a/b;
+                System.out.println("a / b ="+div);
 
         }
     }
